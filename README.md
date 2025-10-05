@@ -18,5 +18,4 @@ Full-stack reference for generating AI artwork, storing it on IPFS, and minting 
 | File | Purpose |
 | --- | --- |
 | [`.env`](.env ) | Global contract, backend, and explorer URLs consumed by Vite. |
-| [`env/.env.development.example`](env/.env.development.example ) | Local development defaults for quick start. |
 
