@@ -14,8 +14,5 @@ Full-stack reference for generating AI artwork, storing it on IPFS, and minting 
 2. Prompt submission hits the Cloud Function; it generates the image, extracts attributes, pins assets, and returns metadata hashes.
 3. Mint request calls [`safeMint`](src/veriprompt-app.ts ) with the metadata URI and SHA-256 hash to anchor the NFT on-chain.
 
-## Environment Keys
-| File | Purpose |
-| --- | --- |
-| [`.env`](.env ) | Global contract, backend, and explorer URLs consumed by Vite. |
-
+## Next Steps
+Explore the frontend, backend, and contract folders to understand each component. The frontend bridges the Google Cloud function—which uploads imagery and metadata to Pinata/IPFS—and the smart contract that ultimately mints the NFT.
