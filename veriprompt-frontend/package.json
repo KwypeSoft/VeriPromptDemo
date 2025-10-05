@@ -1,0 +1,24 @@
+{
+  "name": "veriprompt-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.15.0",
+    "lit": "^3.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.13",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.6"
+  }
+}

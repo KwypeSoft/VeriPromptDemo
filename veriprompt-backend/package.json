@@ -1,0 +1,20 @@
+{
+  "name": "veriprompt-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=generateAndStore"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/aiplatform": "^5.7.0",
+    "@google-cloud/functions-framework": "^4.0.0",
+    "@google-cloud/storage": "^7.17.1",
+    "@google-cloud/vision": "^5.3.3",
+    "axios": "^1.12.2",
+    "form-data": "^4.0.4"
+  }
+}
