@@ -2,6 +2,8 @@
 
 Full-stack reference for generating AI artwork, storing it on IPFS, and minting NFTs secured on Ethereum.
 
+**IMPORTANT**: right now, only the contract owner is allowed to **mint** NFTs. This demo isn’t meant to be a full production app, but you could make it one by relaxing the minting permission in the Solidity contract so anyone can mint.
+
 ## System Snapshot
 - **Frontend** — Lit + Vite UI in [`src/veriprompt-app.ts`](src/veriprompt-app.ts ) renders the wallet workflow, image preview, and minting controls.
 - **Backend** — Google Cloud Function `generateAndStore` orchestrates Vertex AI Imagen, Vision annotations, Google Cloud Storage, and Pinata IPFS pinning.

@@ -7,8 +7,6 @@ This project includes multiple environment files for different deployment stages
 ```
 📁 Environment Files
 ├── .env                 # Default/base configuration
-├── .env.development     # Development-specific settings
-├── .env.production      # Production-specific settings
 └── .env.local          # Local overrides (create if needed)
 ```
 
@@ -42,14 +40,6 @@ VITE_DEV_MODE=true                     # Enable development features
 VITE_DEBUG_LOGS=true                   # Show debug console logs
 VITE_HOT_RELOAD=true                   # Enable hot module reload
 VITE_MOCK_DATA=true                    # Use mock data when needed
-```
-
-#### **API Keys and Services**
-```bash
-VITE_INFURA_PROJECT_ID=your_key        # Infura API key
-VITE_ALCHEMY_API_KEY=your_key          # Alchemy API key
-VITE_WALLET_CONNECT_PROJECT_ID=your_id # WalletConnect project ID
-VITE_ETHERSCAN_API_KEY=your_key        # Etherscan API key
 ```
 
 ## 🚀 Usage Examples
@@ -219,12 +209,6 @@ export class VeriPromptService {
 - [ ] `VITE_RPC_URL` - RPC endpoint  
 - [ ] `VITE_CONTRACT_ADDRESS` - Contract address
 - [ ] `VITE_APP_NAME` - Application name
-
-### **Optional but Recommended**
-- [ ] `VITE_BLOCK_EXPLORER_URL` - Block explorer
-- [ ] `VITE_INFURA_PROJECT_ID` - Infura API key
-- [ ] `VITE_WALLET_CONNECT_PROJECT_ID` - WalletConnect
-- [ ] `VITE_DEV_MODE` - Development flag
 
 ### **Backend Only (No VITE_ prefix)**
 - [ ] `PRIVATE_KEY` - Deployment private key
